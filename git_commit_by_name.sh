@@ -1,4 +1,24 @@
 #!/bin/bash
+
+# This is a terrible tool and you should never use this
+
+# author: 
+# michaelsenpatrick@gmail.com
+# prmichaelsen@git | pmichaelsen@git
+#
+# description:
+# adds, commits, and pushes references across many git repos
+# at once. repos must have a common branch. They will be
+# committed with the same commit message. will push to origin
+#
+# run:
+# ./git_commit_by_name.sh <repo_name>[1...*] <branch_name> "<commit_message>"
+#
+# arguments:
+# repo_name: one or more space deliminated repos to commit 
+# branch_name: the branch to push
+# commit_message: the commit message
+
 echo "Commands to run"
 echo "***************"
 
