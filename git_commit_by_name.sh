@@ -9,7 +9,7 @@ for i in $(seq 1 $(($#-2))) ; do
 	echo
 	echo "$d"
 	echo git -C "$d" add .
-	echo git -C "$d" commit -m "${!branch} \"${!message}\""
+	echo git -C "$d" commit -m "\"${!branch} ${!message}\""
 	echo git -C "$d" push origin ${!branch} 
 done
 
